@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="352dp"
+        android:layout_height="425dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lblsubtotal"
+        app:layout_constraintVertical_bias="0.89">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnborrarTodo"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:backgroundTint="@color/black"
+                android:text="C"
+                android:textColor="@color/blanco"/>
+
+            <Button
+                android:id="@+id/btndivision"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:text="/"
+                android:textColor="@color/blanco"/>
+
+            <Button
+                android:id="@+id/btnmultiplicacion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:text="x"
+                android:textColor="@color/blanco"/>
+
+            <Button
+                android:id="@+id/btnborrar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:text="delete"
+                android:textColor="@color/blanco"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnsiete"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:backgroundTint="@color/black"
+                android:text="7"
+                android:textColor="@color/blanco"/>
+
+            <Button
+                android:id="@+id/btnocho"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:text="8"
+                android:textColor="@color/blanco"/>
+
+            <Button
+                android:id="@+id/btnnueve"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:text="9"
+                android:textColor="@color/blanco"/>
+
+            <Button
+                android:id="@+id/btnmenos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:text="-"
+                android:textColor="@color/blanco"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btncuatro"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:text="4"
+                android:textColor="@color/blanco"/>
+
+            <Button
+                android:id="@+id/btncinco"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:backgroundTint="@color/black"
+                android:text="5"
+                android:textColor="@color/blanco"/>
+
+            <Button
+                android:id="@+id/btnseis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:text="6"
+                android:textColor="@color/blanco"/>
+
+            <Button
+                android:id="@+id/btnmas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:text="+"
+                android:textColor="@color/blanco"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnuno"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:backgroundTint="@color/black"
+                android:text="1"
+                android:textColor="@color/blanco"/>
+
+            <Button
+                android:id="@+id/btndos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:text="2"
+                android:textColor="@color/blanco"
+                />
+
+            <Button
+                android:id="@+id/btntres"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:text="3"
+                android:textColor="@color/blanco"/>
+
+            <Button
+                android:id="@+id/btnigual1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:text="="
+                android:gravity="bottom|center"
+                android:textColor="@color/blanco"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="400dp"
+            android:layout_height="93dp">
+
+            <Button
+                android:id="@+id/btnporcentaje"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:backgroundTint="@color/black"
+                android:text="%"
+                android:textColor="@color/blanco"/>
+
+            <Button
+                android:id="@+id/btncero"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:text="0"
+                android:textColor="@color/blanco"/>
+
+            <Button
+                android:id="@+id/btnpunto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:text="."
+                android:textColor="@color/blanco"/>
+
+            <Button
+                android:id="@+id/btnigual2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:text="" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/lbltotal1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text=""
+        android:textAlignment="textEnd"
+        android:textColor="@color/blanco"
+
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lblsubtotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:text=""
+        android:textAlignment="textEnd"
+        android:textColor="@color/gris"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
